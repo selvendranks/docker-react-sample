@@ -6,4 +6,4 @@ before_install:
      - docker build -t selvendran49/docker-react-demo -f Dockerfile.dev .
 
 script:
-     -docker run selvendran49/docker-react-demo npm run test -- --coverage
+     - docker run selvendran49/docker-react-demo npm run test -- --coverage
